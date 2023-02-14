@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="/scr/css/carrinho.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Repono</title>
+</head>
+<body>
+    <!-- cabeçalho-->
+    <header>
+        <!--nav-->
+        <div class="nav container">
+            <a class="logo" href="#">Repono</a>
+            <!--Icone Carrinho-->
+            <i class='bx bx-shopping-bag' id="carrinho-icone"></i>
+            <!--carrinho-->
+            <div class="carrinho">
+                <h2 class="carrinho-titulo" ">
+                    Seu Carrinho
+                </h2>
+                <!--Conteudo-->
+                <div class="carrinho-conteudo">
+
+            
+                </div>
+                <!--Total-->
+                <div class="total">
+                    <div class="total-titulo">Total</div>
+                    <div class="total-preco">R$0.00</div>
+                </div>
+                <!--Botão-->
+                <button type="botao" class="btn-comprar">
+                    Comprar agora
+                </button>
+                <!--Fechar carrinho-->
+                <i class='bx bx-x' id="fechar-carrinho"></i>
+            </div>
+        </div>
+    </header>
+    <!--carrinho-->
+    <section class="shopp container">
+        <h2 class="titulo">
+            Shopp de Produtos
+        </h2>
+        <!--Conteudo-->
+        <div class="conteudo-loja">
+            <!--Caixa 1-->
+            <div class="produto-box">
+                <img class="produto-img" src="/scr/imagens/blusa1.png" alt="">
+                <h2 class="produto-titulo">
+                    BLUSA BEGE
+                </h2>
+                <span class="preco">
+                    R$29.99
+                </span>
+                <i class="bx bx-shopping-bag add-carrinho"></i>
+            </div>
+            <!--Caixa 2-->
+            <div class="produto-box">
+                <img class="produto-img" src="/scr/imagens/blusa2.png" alt="">
+                <h2 class="produto-titulo">
+                    BLUSA DEUS GREGO
+                </h2>
+                <span class="preco">
+                    R$30.00
+                </span>
+                <i class="bx bx-shopping-bag add-carrinho"></i>
+            </div>
+            <!--Caixa 3-->
+            <div class="produto-box">
+                <img class="produto-img" src="/scr/imagens/blusa3.png" alt="">
+                <h2 class="produto-titulo">
+                    BLUSA PRETA LISA
+                </h2>
+                <span class="preco">
+                    R$30.00
+                </span>
+                <i class="bx bx-shopping-bag add-carrinho"></i>
+            </div>
+            <!--Caixa 4-->
+            <div class="produto-box">
+                <img class="produto-img" src="/scr/imagens/bobojaco.png" alt="">
+                <h2 class="produto-titulo">
+                    BOBOJACO
+                </h2>
+                <span class="preco">
+                    R$250.00
+                </span>
+                <i class="bx bx-shopping-bag add-carrinho"></i>
+            </div>
+            <!--Caixa 5-->
+            <div class="produto-box">
+                <img class="produto-img" src="/scr/imagens/camisa2.jpg" alt="">
+                <h2 class="produto-titulo">
+                    CAMISA
+                </h2>
+                <span class="preco">
+                    R$50.00
+                </span>
+                <i class="bx bx-shopping-bag add-carrinho"></i>
+            </div>
+            <!--Caixa 6-->
+            <div class="produto-box">
+                <img class="produto-img" src="/scr/imagens/calça.jpg" alt="">
+                <h2 class="produto-titulo">
+                    CALÇA
+                </h2>
+                <span class="preco">
+                    R$60.00
+                </span>
+                <i class="bx bx-shopping-bag add-carrinho"></i>
+            </div>
+            <!--Caixa 7-->
+            <div class="produto-box">
+                <img class="produto-img" src="/scr/imagens/conjunto.png" alt="">
+                <h2 class="produto-titulo">
+                    CONJUNTO
+                </h2>
+                <span class="preco">
+                    R$119.99
+                </span>
+                <i class="bx bx-shopping-bag add-carrinho"></i>
+            </div>
+            <!--Caixa 8-->
+            <div class="produto-box">
+                <img class="produto-img" src="/scr/imagens/jaqueta.png" alt="">
+                <h2 class="produto-titulo">
+                    JAQUETA
+                </h2>
+                <span class="preco">
+                    R$159.99
+                </span>
+                <i class="bx bx-shopping-bag add-carrinho"></i>
+            </div>
+        </div>
+    </section>
+    <!--Link do JS-->
+    <script src="/scr/js/carrinho.js"></script>
+
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+          <div class="vw-plugin-top-wrapper"></div>
+        </div>
+      </div>
+      <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+      <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+      </script>
+
+</body> 
+</html>
